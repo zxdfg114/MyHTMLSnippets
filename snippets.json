@@ -1,0 +1,280 @@
+{
+   "rl": {
+      "prefix": "rl",
+      "body": [
+         "<!DOCTYPE html>",
+         "<html lang=\"ko\">",
+         "<head>",
+         "\t<meta charset=\"UTF-8\">",
+         "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+         "\t<title>${1:Document}</title>",
+         "\t<!-- 리액트 사용 준비 -->",
+      "\t<script src=\"https://unpkg.com/react@17/umd/react.development.js\"></script>",
+      "\t<script src=\"https://unpkg.com/react-dom@17/umd/react-dom.development.js\"></script>",
+      "\t<script src=\"https://unpkg.com/babel-standalone@6/babel.min.js\"></script>",
+         "</head>",
+         "<body>",
+         "\t<div id=\"root\"></div>",
+      "\t",
+      "\t<script type=\"text/babel\">",
+      "\t\t// React Code",
+      "\t</script>",
+         "</body>",
+         "</html>"
+      ],
+      "description": "React 라이브러리 템플릿",
+      "scope": "text.html"
+   },
+   
+   "ww": {
+      "prefix": "ww",
+      "body": [
+         "<!DOCTYPE html>",
+         "<html lang=\"ko\">",
+         "<head>",
+         "\t<meta charset=\"UTF-8\">",
+         "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+         "\t<title>${1:Document}</title>",
+         "</head>",
+         "<body>",
+         "\t",
+         "</body>",
+         "</html>"
+      ],
+      "description": "우리웹 HTML 템플릿",
+      "scope": "text.html"
+   },
+   "ws": {
+      "prefix": "ws",
+      "body": [
+         "<!DOCTYPE html>",
+         "<html lang=\"ko\">",
+         "<head>",
+         "\t<meta charset=\"UTF-8\">",
+         "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+         "\t<title>${1:Document}</title>",
+         "\t<script>",
+         "\t\t",
+         "\t</script>",
+         "</head>",
+         "<body>",
+         "\t",
+         "</body>",
+         "</html>"
+      ],
+      "description": "우리웹 HTML/js 템플릿",
+      "scope": "text.html"
+   },
+   "wc": {
+      "prefix": "wc",
+      "body": [
+         "<!DOCTYPE html>",
+         "<html lang=\"ko\">",
+         "<head>",
+         "\t<meta charset=\"UTF-8\">",
+         "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+         "\t<title>${1:Document}</title>",
+         "\t<style>",
+         "\t\t$3",
+         "\t</style>",
+         "</head>",
+         "<body>",
+         "\t$2",
+         "</body>",
+         "</html>"
+      ],
+      "description": "우리웹 HTML/CSS 템플릿",
+      "scope": "text.html"
+   },
+   "wt": {
+      "prefix": "wt",
+      "body": [
+         "<link rel=\"stylesheet\" href=\"https://wooreeweb.com/jst/css/main.min.css\">",
+         "<script src=\"https://wooreeweb.com/jst/js/main.min.js\"></script>",
+         "<script>",
+         "\twindow.onload = function () {",
+         "\t\tsub( '${1:주제}' );",
+         "\t}",
+         "</script>",
+         "<script>",
+         "\t// 코드 작성 START!!",
+         "\t$2",
+         "</script>"
+      ],
+      "description": "우리웹 JS 템플릿",
+      "scope": "text.html"
+   },
+   "wq1": {
+      "prefix": "wq",
+      "body": [
+         "<!DOCTYPE html>",
+         "<html lang=\"ko\">",
+         "<head>",
+         "\t<meta charset=\"UTF-8\">",
+         "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+         "\t<title>${1:Document}</title>",
+         "\t<!-- jQuery -->",
+         "\t<script src=\"https://code.jquery.com/jquery-1.12.4.min.js\"></script>",
+         "\t<script src=\"https://code.jquery.com/jquery-migrate-1.4.1.min.js\"></script>",
+         "\t<script>",
+         "\t\t$( function () {",
+         "\t\t\t",
+         "\t\t} );",
+         "\t</script>",
+         "</head>",
+         "<body>",
+         "\t",
+         "</body>",
+         "</html>"
+      ],
+      "description": "우리웹 jQuery1x 템플릿",
+      "scope": "text.html"
+   },
+   "bs3": {
+      "prefix": "bs3",
+      "body": [
+         "<!DOCTYPE html>",
+         "<html lang=\"ko\">",
+         "<head>",
+         "\t<meta charset=\"UTF-8\">",
+         "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+         "\t<title>${1:Document}</title>",
+         "\t<!-- 부트스트랩 CSS -->",
+         "\t<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css'/>",
+         "\t<!-- 부트스트랩 테마 CSS -->",
+         "\t<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap-theme.min.css'>",
+         "\t<!-- jQuery -->",
+         "\t<script src=\"https://code.jquery.com/jquery-1.12.4.min.js\"></script>",
+         "\t<script src=\"https://code.jquery.com/jquery-migrate-1.4.1.min.js\"></script>",
+         "\t<!-- 부트스트랩 JS -->",
+         "\t<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js'></script>",
+         "\t<!--[if lt IE 9]>",
+            "\t\t<script src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js'></script>",
+            "\t\t<script src='https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js'></script>",
+         "\t<![endif]-->",
+         "</head>",
+         "<body>",
+         "\t",
+         "</body>",
+         "</html>"
+      ],
+      "description": "우리웹 BootStrap3 템플릿",
+      "scope": "text.html"
+   },
+   "bs4": {
+      "prefix": "bs4",
+      "body": [
+         "<!DOCTYPE html>",
+         "<html lang=\"ko\">",
+         "<head>",
+         "\t<meta charset=\"UTF-8\">",
+         "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">",
+         "\t<title>${1:Document}</title>",
+         "\t<!-- 부트스트랩 CSS -->",
+         "\t<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css'>",
+         "\t<!-- jQuery -->",
+         "\t<script src=\"https://code.jquery.com/jquery-3.3.1.min.js\"></script>",
+         "\t<script src=\"https://code.jquery.com/jquery-migrate-3.0.0.min.js\"></script>",         
+         "\t<!-- 부트스트랩 4 APP 필수 요소 -->",
+         "\t<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js'></script>",
+         "\t<!-- 부트스트랩 JS -->",
+         "\t<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>",
+         "</head>",
+         "<body>",
+         "\t",
+         "</body>",
+         "</html>"
+      ],
+      "description": "우리웹 BootStrap4 템플릿",
+      "scope": "text.html"
+   },
+   "jq1": {
+      "prefix": "jq1",
+      "body": [
+         "<!-- jQuery -->",
+         "<script src=\"https://code.jquery.com/jquery-1.12.4.min.js\"></script>",
+         "<script src=\"https://code.jquery.com/jquery-migrate-1.4.1.min.js\"></script>",
+         "$1"
+      ],
+      "description": "jQuery 1.12.4",
+      "scope": "text.html"
+   },
+   "jq2": {
+      "prefix": "jq2",
+      "body": [
+         "<!-- jQuery -->",
+         "<script src=\"https://code.jquery.com/jquery-2.2.4.min.js\"></script>",
+         "<script src=\"https://code.jquery.com/jquery-migrate-3.0.0.min.js\"></script>",
+         "$1"
+      ],
+      "description": "jQuery 2.2.4",
+      "scope": "text.html"
+   },
+   "jq3": {
+      "prefix": "jq3",
+      "body": [
+         "<!-- jQuery -->",
+         "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>",
+         "<script src=\"https://code.jquery.com/jquery-migrate-3.4.0.min.js\"></script>",
+         "$1"
+      ],
+      "description": "jQuery 3.6.0",
+      "scope": "text.html"
+   },
+   "fa4": {
+      "prefix": "fa4",
+      "body": [
+         "<!-- font-awesome 4.7.0 -->",
+         "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" integrity=\"sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=\" crossorigin=\"anonymous\" />"
+      ],
+      "description": "font-awesome4",
+      "scope": "text.html"
+   },
+   "sj": {
+      "prefix": "sj",
+      "body": [
+         "<script>",
+         "\t$( function () {",
+         "\t\t",
+         "\t\t$1",
+         "\t\t",
+         "\t} );",
+         "</script>",
+         "$2"
+      ],
+      "description": "jQuery 준비",
+      "scope": "text.html"
+   },
+   "ss": {
+      "prefix": "ss",
+      "body": [
+         "<script>",
+         "\t",
+         "</script>"
+      ],
+      "description": "스크립트 정의",
+      "scope": "text.html"
+   },
+   "gi": {
+      "prefix": "gi",
+      "body": [
+         "<!-- 구글 머티리얼 아이콘 CDN -->",
+         "<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">",
+         "$1"
+      ],
+      "description": "구글 머티리얼 아이콘 CDN",
+      "scope": "text.html"
+   },
+   "mt": {
+      "prefix": "mt",
+      "body": [
+         "<!-- Materialize 프레임워크 -->",
+         "<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css'/>",  
+         "<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js'></script>",
+         "$1"
+      ],
+      "description": "materialize CDN",
+      "scope": "text.html"
+   }
+   
+}
